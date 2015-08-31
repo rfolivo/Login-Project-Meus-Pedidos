@@ -4,7 +4,7 @@ Esse projeto foi desenvolvido através da ferramenta Selenium Builder.
 
 Passos para executar o teste:
 
-1 - Instalar o plugin - Selenium Builder no Firefox versão 39
+1 - Instalar o plugin - Selenium Builder no Firefox versão 39, disponível em: http://seleniumbuilder.github.io/se-builder/
 2 - Abrir a ferramenta e selecionar a opção File > Open a script or Suite.
 3 - Importar o arquivo Suite-Login.json
 4 - Após incluir o projeto, executar na opção: Run > Run suite locally.
