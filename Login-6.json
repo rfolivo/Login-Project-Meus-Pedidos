@@ -1,0 +1,44 @@
+{
+  "type": "script",
+  "seleniumVersion": "2",
+  "formatVersion": 2,
+  "steps": [
+    {
+      "type": "get",
+      "url": "http://69.164.203.63:8080/26620/login/"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "id_usuario"
+      },
+      "text": "rfolivo@gmail.com"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "id_senha"
+      },
+      "text": "111111"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//form[@class='form-login']//button[.='ENTRAR']"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "E-mail e senha não conferem."
+    }
+  ],
+  "data": {
+    "configs": {},
+    "source": "none"
+  },
+  "inputs": [],
+  "timeoutSeconds": 60
+}

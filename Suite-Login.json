@@ -1,0 +1,40 @@
+{
+  "type": "suite",
+  "seleniumVersion": "2",
+  "formatVersion": 1,
+  "scripts": [
+    {
+      "where": "local",
+      "path": "Login-1.json"
+    },
+    {
+      "where": "local",
+      "path": "Login-2.json"
+    },
+    {
+      "where": "local",
+      "path": "Login-3.json"
+    },
+    {
+      "where": "local",
+      "path": "Login-4.json"
+    },
+    {
+      "where": "local",
+      "path": "Login-5.json"
+    },
+    {
+      "where": "local",
+      "path": "Login-6.json"
+    },
+    {
+      "where": "local",
+      "path": "Login-7.json"
+    },
+    {
+      "where": "local",
+      "path": "Login-8.json"
+    }
+  ],
+  "shareState": false
+}
